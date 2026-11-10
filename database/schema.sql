@@ -1,0 +1,16 @@
+CREATE DATABASE IF NOT EXISTS wdev_vagas
+    CHARACTER SET utf8mb4
+    COLLATE utf8mb4_general_ci;
+
+USE wdev_vagas;
+
+CREATE TABLE IF NOT EXISTS vagas (
+    id INT NOT NULL AUTO_INCREMENT,
+    titulo VARCHAR(255) NOT NULL,
+    descricao TEXT NOT NULL,
+    ativo ENUM('s', 'n') NOT NULL,
+    data TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (id)
+) ENGINE=InnoDB
+  DEFAULT CHARSET=utf8mb4
+  COLLATE=utf8mb4_general_ci;
