@@ -1,6 +1,6 @@
 # WDEV Vagas
 
-![Capa do projeto WDEV Vagas](assets/capa-vagas.svg)
+![Captura da página inicial do WDEV Vagas](assets/capa-index.png)
 
 Aplicação web simples para cadastro e gerenciamento de vagas, desenvolvida em PHP com programação orientada a objetos.
 
@@ -21,6 +21,10 @@ Aplicação web simples para cadastro e gerenciamento de vagas, desenvolvida em 
 - **Bootstrap 4.5.2**, HTML e JavaScript — interface.
 
 O CSS e as bibliotecas JavaScript do Bootstrap são carregados por CDN, portanto a interface precisa de acesso à internet para carregá-los.
+
+## Créditos e referência
+
+Este projeto foi desenvolvido como estudo a partir da aula do canal [WDEV](https://www.youtube.com/@WDEV), disponível em [CRUD com PHP Orientado a Objetos](https://www.youtube.com/watch?v=uG64BgrlX7o). Créditos pelo conteúdo original ao canal WDEV.
 
 ## Requisitos
 
