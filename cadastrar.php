@@ -5,9 +5,9 @@ use App\Entity\Vaga;
 require_once __DIR__ . '/vendor/autoload.php';
 
 define('TITLE', 'Cadastrar Vaga');
+$vaga = new Vaga();
 
 if (isset($_POST['titulo'], $_POST['descricao'], $_POST['ativo'])) {
-    $vaga = new Vaga();
     $vaga->titulo = $_POST['titulo'];
     $vaga->descricao = $_POST['descricao'];
     $vaga->ativo = $_POST['ativo'];
